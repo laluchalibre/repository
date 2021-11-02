@@ -8,6 +8,13 @@ function titleCase(str) {
    return splitStr.join(' '); 
 }
 
-alert('¡Disfrute de nuestro catálogo de libros seleccionados para ' + titleCase(pais) + '!');
+if (pais == "arabia saudita" || pais == "estados unidos") {
+    alert('No tenemos un catálogo de libros para ' + titleCase(pais));
+} else {
+    alert('¡Disfrute de nuestro catálogo de libros seleccionados para ' + titleCase(pais) + '!');
+}
+
+
+
 
 
